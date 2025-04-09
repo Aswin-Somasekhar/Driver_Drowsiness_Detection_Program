@@ -1,0 +1,18 @@
+Project: Driver Drowsiness Detection
+
+Aim:
+To detect and alert when the driver is drowsy in order to prevent accidents.
+
+Methodology:
+Use the webcam of the laptop to continously monitor the face of the user.
+The average estimated time of usual blinking is between 100-400ms as per Harwars databse of useful biological numbers,
+if the user closes eye for a duration more than the average an audio and alert will be triggered and a message mnotification will be displayed.
+
+
+Packages -
+opencv : for capturing live frames from webcam
+dlib : to implement the predicting model
+numpy : for handling multidimensional arrays and matrices
+pygame : for audio alerts
+cmake : dlib package dependency
+wheel : dlib package dependency
